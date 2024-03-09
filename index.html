@@ -12,34 +12,35 @@ body{
 }
 
 .contain{
-	background: #050505;
-	height: 100vh;
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .pixel {
-        overflow: hidden;
-
-        font: normal 900 5rem / 6rlh "Permanent Marker", cursive;
-        color: transparent;
-
-        background-color: transparent;
-        background: url("https://live.staticflickr.com/65535/52575631966_8efb971b42_o.gif")
-          no-repeat 50% 0;
-
-        -webkit-background-clip: text;
-        background-clip: text;
-        background-size: auto;
-        -webkit-background-size: auto;
-
-        filter: sepia(1) brightness(2);
-        -webkit-filter: sepia(1) brightness(2);
+overflow: hidden;
+  color: transparent;
+  background-color: transparent;
+  background: url("https://live.staticflickr.com/65535/52575631966_8efb971b42_o.gif") no-repeat 50% 0;
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3rem;
+  font-family: "Varela", sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  width: 100%;
+  flex: 0 0 auto;
+  text-align: center;
+  filter: sepia(1) brightness(2);
+  -webkit-filter: sepia(1) brightness(2);
       }
 .pixel2{
-	
+flex: 0 0 100%;
+  text-align: center;
 }
 .pixel2 button {
   border: none;
