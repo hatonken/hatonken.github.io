@@ -6,251 +6,132 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 <title>AVE社区发布页</title>
 <style>
-
-.transparent {
-  background-color: transparent;
-  height: 20px;
-  width: 20px;
-}
-
-.black {
-  background-color: black;
-  height: 20px;
-  width: 20px;
-}
-
-.lightg {
-  background-color: #909090;
-  height: 20px;
-  width: 20px;
-}
-
-.white {
-  background-color: white;
-  height: 20px;
-  width: 20px;
-}
-
-.grey {
-  background-color: #545454;
-  height: 20px;
-  width: 20px;
-}
-.text {
-  filter: none;
-  position: absolute;
+.contain {
+  margin: 50px;
   display: block;
-  
-  z-index: 5;
-
-  font-size: 40px;
-  width: 100%;
-  height: 100%;
-  top: 28%;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.pixel, .pixel2 {
+  font-size: 25px;
+  color: white;
+  height: auto;
+  margin: 10px;
+  font-family: 'VT323';
+  
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  
+  cursor: pointer;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
+.pixel:active, .pixel2:active {
+  top: 2px;
+}
+
+.pixel {
+  line-height: 0;
+  
+  image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+  
+  border-style: solid;
+  border-width: 20px;
+  -moz-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -webkit-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  -o-border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+  border-image: url(https://i.imgur.com/sREM8Yn.png) 20 stretch;
+}
+
+.pixel p {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin: -20px -20px;
+  line-height: 20px;
+  padding: 10px 20px;
+  
+	background: #000000;
+	background:
+		linear-gradient(135deg, transparent 10px, #000000 0) top left,
+		linear-gradient(225deg, transparent 10px, #000000 0) top right,
+		linear-gradient(315deg, transparent 10px, #000000 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, #000000 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-image:
+		radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
+		radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
+}
+
+.pixel2 {
+  position: relative;
+  display: block;
+  margin: 10px;
+  font-family: 'VT323';
+  text-transform: uppercase;
+  
+  font-size: 25px;
+  color: white;
+}
+
+.pixel2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: -10px;
+  right: -10px;
+  background: black;
+  z-index: -1;
+}
+
+.pixel2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: -6px;
+  right: -6px;
+  background: black;
+  z-index: -1;
+}
+
+.pixel2 {
+  padding: 10px 10px;
+  position: relative;
+  background: black;
+  width: auto;
+  z-index: 2;
+}
 </style>
 <script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2 8() {a.6.4 = "5://9.3.1/" 7(0);}',62,11,'1500|buzz|function|goato|href|https|location|setTimeout|shut|smallbee|window'.split('|'),0,{}))</script>
 </head>
 <body>
-<div class="contain"></div>
-<div class="pixel-grid">
-  <div class="text"><button action="javascript:void(0);" onclick="shut" title="go"><h1>AVE社区</h1></button></div>
-
-  <div class="transparent"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="transparent"></div>
-  
-  <div class="black"></div>
-  <div class="lightg"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="lightg"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="lightg"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="white"></div>
-  <div class="lightg"></div>
-  <div class="black"></div>
-  
-  <div class="black"></div>
-  <div class="grey"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="lightg"></div>
-  <div class="grey"></div>
-  <div class="black"></div>
-  
-  <div class="transparent"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="black"></div>
-  <div class="transparent"></div>
+<div class="contain"><div class="pixel"><p><h1>AVE影片</h1></p></div>
+<div class="pixel2"><button action="javascript:void(0);" onclick="shut" title="go">go</button></div></div>
 </div>
   </body>
 </html>
