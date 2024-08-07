@@ -1,4 +1,4 @@
-AVE社区 - 永久发布页
+环球永久发布页
 
 发布页#1 
 https://hatonken.github.io
